@@ -114,4 +114,5 @@ test('createText() method',t => {
 		const expected = 'This is embed.js bar john foo';
 
 		t.same(actual, expected)
+	
 });

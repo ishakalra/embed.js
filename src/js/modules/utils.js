@@ -79,6 +79,7 @@ export function createText (str, embeds) {
   return str
 }
 
+
 /**
  * Matches the string and finds the substrings matching to the provided regex pattern
  * @param  {object} regex Regex pattern
