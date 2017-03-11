@@ -77,7 +77,7 @@ export function createText (str, embeds)
 	for (let i = 0; i < sortedEmbeds.length; i++)
 	{
 		const x = sortedEmbeds[i].text
-		str += (str==='' && i===0) ?  `${x}` : ` ${x}`
+		str += (str=='' && i==0) ?  `${x}` : ` ${x}`
 	}
 	return str
 }
